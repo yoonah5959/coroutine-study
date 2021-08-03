@@ -1,12 +1,12 @@
 import kotlinx.coroutines.*
 import java.lang.UnsupportedOperationException
 
-fun main() {
-//    runBlockingExamOfGlobalScope()
-//    runBlockingExam()
-//    runBlockingExamOfGlobalScope2()
-    joinExam()
-}
+//fun main() {
+////    runBlockingExamOfGlobalScope()
+////    runBlockingExam()
+////    runBlockingExamOfGlobalScope2()
+//    joinExam()
+//}
 
 
 fun runBlockingExamOfGlobalScope() = runBlocking {
@@ -55,8 +55,6 @@ fun joinExam() = runBlocking {
     list.map {
         "`"
     }.toMutableList()
-
-    val list2 = MutableList()
 }
 
 fun doException() {
