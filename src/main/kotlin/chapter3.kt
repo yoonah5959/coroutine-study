@@ -1,4 +1,3 @@
-import jdk.nashorn.internal.objects.Global
 import kotlinx.coroutines.*
 
 //fun main() {
